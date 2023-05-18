@@ -1,0 +1,60 @@
+.container {
+    margin: 0 auto;
+    padding: 0px 40px 40px 40px;
+    max-width: 500px;
+  }
+  .card-body {
+      line-height: 100px;
+      margin: 0px;
+      padding: 2%;
+      position: relative;
+      text-align: center;
+  }
+  .slick-next:before, .slick-prev:before {
+      color: #000;
+  }
+  .center .slick-center .card-body {
+      
+      opacity: 1;
+      -ms-transform: scale(1.08);
+      transform: scale(1.08);
+  }
+  .center .card-body {
+      transition: all .10s ease;
+  }
+
+
+  @media (max-width: 320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+  
+    .container {
+        margin: 0 auto;
+        padding: 35px 8px 35px 8px;
+        max-width: 1000px;
+    }
+  }
+  
+  @media (min-width: 481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  }
+  
+  @media (min-width: 641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .container {
+      margin: 0 auto;
+      padding: 35px 55px 35px 8px;
+      max-width: 1000px;
+  }
+  }
+  
+  @media (min-width: 961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+  }
+  
+  @media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+  }
+  
+  @media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+  }
